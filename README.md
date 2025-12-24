@@ -26,6 +26,29 @@ Brief: A concise exploratory data visualization project analyzing the Sleep Heal
 - **figures/**: generated plots and images
 - **README.md**: this file
 
+**Key Findings**
+
+Normal-weight individuals showed lower MAP levels and a lower prevalence of sleep disorders.
+
+Overweight individuals exhibited higher rates of sleep disorders, and among them, those with sleep apnea had higher MAP levels compared to those with insomnia.
+
+Higher sleep quality was associated with lower heart rate.
+
+Individuals with sleep apnea formed two distinct clusters:
+
+One cluster had lower sleep quality and shorter sleep duration.
+
+The other cluster had high sleep quality (score ~9) and longer sleep duration.
+
+Individuals with insomnia generally had poor sleep quality and shorter sleep duration.
+
+MAP tended to increase with age.
+
+Heart rate and sleep duration were inversely correlated, with a correlation coefficient of approximately -0.5.
+
+Physical activity levels and the proportion of people with sleep disorders by occupation were also analyzed.
+
+
 **Dependencies**
 - Python 3.8+; main libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`
 - See `requirements.txt` for exact pins.
